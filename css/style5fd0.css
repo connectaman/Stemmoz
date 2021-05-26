@@ -2498,7 +2498,8 @@ font-size: 1.2rem;
 
 #about {
 	position: relative;
-	background: url(../img/home/yeahkids_bg_violet_02.png) left top repeat;
+	/* background: url(../img/home/yeahkids_bg_violet_02.png) left top repeat; */
+	color: black !important;
 }
 
 .overlay_one .bg_top {
@@ -2693,17 +2694,17 @@ font-size: 1.2rem;
 }
 
 .about_tabs ul li .tab_lightgreen{
-	border: 2px solid #98de55;
-	color: #98de55;
+	border: 2px solid #303030;
+	color: #303030;
 	-webkit-transition: all .2s linear;
    transition: all .2s linear;
 }
 
 .nav-tabs>li>.tab_lightgreen:hover,
 .ui_hover .nav-tabs>li>.tab_lightgreen{
-	  background: rgba(152, 222, 85, 0.7);
+	  background: #303030;
     color: #fff;
-    border: 2px solid rgba(152, 222, 85, 0.7);
+    border: 2px solid #303030;
      -webkit-background-clip: padding-box; /* for Safari */
     background-clip: padding-box;
 }
@@ -2749,6 +2750,7 @@ font-size: 1.2rem;
 	color: #fff;
 	border: 2px solid #49b450;
 }
+
 
 .about_tabs_content {
 	display: inline-block;
